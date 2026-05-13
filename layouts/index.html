@@ -1,0 +1,48 @@
+{{- define "main" }}
+
+{{- if and site.Params.homeInfoParams .IsHome }}
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1>{{ site.Params.homeInfoParams.Title | markdownify }}</h1>
+    </header>
+    <div class="entry-content">
+        {{ site.Params.homeInfoParams.Content | markdownify }}
+    </div>
+</article>
+{{- end }}
+
+{{- if and site.Params.featuredResearch .IsHome }}
+<section class="featured-research">
+    <h2 class="featured-title">Featured Research</h2>
+    <div class="featured-grid">
+        {{- range site.Params.featuredResearch }}
+        <div class="featured-card">
+            {{- if .imageUrl }}
+            <div class="featured-img-wrap">
+                <img src="{{ .imageUrl | relURL }}" alt="{{ .title }}" loading="lazy" />
+            </div>
+            {{- end }}
+            <div class="featured-body">
+                <h3 class="featured-card-title">{{ .title }}</h3>
+                <p class="featured-authors">{{ .authors }}</p>
+                <p class="featured-venue">{{ .venue }}</p>
+                <p class="featured-desc">{{ .description }}</p>
+                <div class="featured-links">
+                    {{- if .pdfUrl }}
+                    <a href="{{ .pdfUrl }}" target="_blank" rel="noopener" class="featured-link">PDF</a>
+                    {{- end }}
+                    {{- if .arxivUrl }}
+                    <a href="{{ .arxivUrl }}" target="_blank" rel="noopener" class="featured-link">arXiv</a>
+                    {{- end }}
+                    {{- if .projectUrl }}
+                    <a href="{{ .projectUrl }}" target="_blank" rel="noopener" class="featured-link">Project Page</a>
+                    {{- end }}
+                </div>
+            </div>
+        </div>
+        {{- end }}
+    </div>
+</section>
+{{- end }}
+
+{{- end }}

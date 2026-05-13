@@ -1,0 +1,85 @@
+{{ define "main" }}
+<article class="post">
+    <header class="post-header">
+        <h1>Publications</h1>
+    </header>
+    <div class="post-content">
+        <p><em>A full list is available on <a href="https://scholar.google.com/citations?user=tsjvcusAAAAJ" target="_blank" rel="noopener">Google Scholar</a>.</em></p>
+
+        <div class="pub-filters" id="pub-filters">
+            <button class="pub-filter-btn active" data-filter="all">All</button>
+            <button class="pub-filter-btn" data-filter="driving">Autonomous Driving &amp; Shared Control</button>
+            <button class="pub-filter-btn" data-filter="hci">HCI &amp; Accessibility</button>
+            <button class="pub-filter-btn" data-filter="cognitive-modeling">Cognitive Modeling &amp; Preferences</button>
+            <button class="pub-filter-btn" data-filter="dev-psych">Developmental Psychology</button>
+        </div>
+
+        <div id="pub-count"></div>
+
+        <div class="pub-list">
+            {{ $lastYear := 0 }}
+            {{ range sort .Site.Data.publications "num" "desc" }}
+                {{ if ne .year $lastYear }}
+                    {{ if ne $lastYear 0 }}</div>{{ end }}
+                    <div class="pub-year-group" data-year="{{ .year }}">
+                        <h2 class="pub-year">{{ .year }}</h2>
+                {{ end }}
+                <div class="pub-item" data-themes="{{ delimit .themes "," }}">
+                    <p><strong>{{ .num }}.</strong> {{ .authors }} <em>{{ .title }}.</em> {{ .venue }}.</p>
+                </div>
+                {{ $lastYear = .year }}
+            {{ end }}
+            </div>
+        </div>
+    </div>
+</article>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const buttons = document.querySelectorAll('.pub-filter-btn');
+    const items = document.querySelectorAll('.pub-item');
+    const yearGroups = document.querySelectorAll('.pub-year-group');
+    const countEl = document.getElementById('pub-count');
+
+    function updateCount(visible) {
+        countEl.textContent = visible + ' publication' + (visible !== 1 ? 's' : '');
+    }
+
+    function filter(theme) {
+        let visible = 0;
+        items.forEach(function(item) {
+            const themes = item.getAttribute('data-themes').split(',');
+            if (theme === 'all' || themes.indexOf(theme) !== -1) {
+                item.classList.remove('hidden');
+                item.style.maxHeight = item.scrollHeight + 'px';
+                visible++;
+            } else {
+                item.classList.add('hidden');
+            }
+        });
+
+        // Hide empty year groups
+        yearGroups.forEach(function(group) {
+            const visibleItems = group.querySelectorAll('.pub-item:not(.hidden)');
+            group.style.display = visibleItems.length ? '' : 'none';
+        });
+
+        updateCount(visible);
+    }
+
+    buttons.forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            buttons.forEach(function(b) { b.classList.remove('active'); });
+            btn.classList.add('active');
+            filter(btn.getAttribute('data-filter'));
+        });
+    });
+
+    // Initialize: set max-heights and show count
+    items.forEach(function(item) {
+        item.style.maxHeight = item.scrollHeight + 'px';
+    });
+    updateCount(items.length);
+});
+</script>
+{{ end }}

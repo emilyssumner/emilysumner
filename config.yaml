@@ -1,0 +1,90 @@
+baseURL: "https://emilyssumner.github.io/emilysumner/"
+languageCode: en-us
+title: "Emily Sumner"
+theme: PaperMod
+
+params:
+  author: Emily Sumner
+  description: "Senior Research Scientist at Toyota Research Institute. Cognitive scientist working at the intersection of human behavior and machine learning."
+  defaultTheme: light
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  hideFooter: false
+
+  homeInfoParams:
+    Title: "Hi, I'm Emily :wave:"
+    Content: |
+      I'm a cognitive scientist working at the intersection of human behavior and machine learning, translating how people think, feel, and behave into data that makes AI systems smarter and more trustworthy.
+
+      At **Toyota Research Institute**, I lead human subjects research that directly feeds model training and validation pipelines. I design studies to understand human behavior in the context of shared control systems and autonomous vehicles. I work closely with ML scientists, HCI/HRI researchers, and engineers.
+
+      Over the years I've worked across a wide range of domains including developmental psychology, driving interfaces for the blind, performance driving, and distracted & intoxicated driving.
+
+      My background spans experimental design, quantitative and qualitative methods, human-in-the-loop data collection, and HCI/HRI.
+
+      I hold a **PhD in Cognitive Sciences from UC Irvine** and did my post-doc at **UC Berkeley**. I'm also an inventor on **28+ patents** (4 granted, more pending).
+
+  featuredResearch:
+    - title: "Personalizing Driver Safety Interfaces via Driver Cognitive Factors Inference"
+      authors: "Sumner, E., DeCastro, J., Costa, J., Gopinath, D., Kimani, E., Hakimi, S., et al."
+      venue: "Scientific Reports 14, 18058 (2024)"
+      description: "Cognitive factors like impulsivity and inhibitory control are known predictors of risky driving. We train a recurrent neural network to infer these latent traits from recent driving behavior, then use them to personalize when and how driver safety interfaces are deployed. In a high-fidelity simulator study, our personalized interface reduced drivers' inclination to run yellow lights compared to non-personalized baselines."
+      imageUrl: "/emilysumner/img/featured-safety.png"
+      pdfUrl: "https://www.nature.com/articles/s41598-024-65144-8.pdf"
+
+    - title: "Autonomous is Not Enough: Designing Multisensory Mid-Air Gestures for Vehicle Interactions Among People with Visual Impairments"
+      authors: "Fink, P. D., Dimitrov, V., Yasuda, H., Chen, T. L., Corey, R. R., Giudice, N. A., & Sumner, E."
+      venue: "CHI 2023"
+      description: "Autonomy alone does not make vehicles accessible. We co-designed mid-air gesture and audio interfaces with blind and low-vision riders, evaluating multisensory interaction schemas for common vehicle interactions like adjusting climate or selecting a destination. Our findings show that combining gestural input with spatial audio feedback significantly improves usability and situational awareness for visually impaired passengers."
+      imageUrl: "/emilysumner/img/featured-gestures.png"
+      pdfUrl: "https://dl.acm.org/doi/pdf/10.1145/3544548.3580762"
+
+    - title: "SimCoachCorpus: A Naturalistic Dataset with Language and Trajectories for Embodied Teaching"
+      authors: "Sumner, E., Gopinath, D. E., Dees, L., Reyes Gomez, P., Cui, X., Silva, A., Costa, J., et al."
+      venue: "Under Review (2025)"
+      description: "We introduce SimCoachCorpus, a dataset of 29 humans learning to drive on a race track simulator over 90 minutes each, where 15 received personalized coaching from a professional instructor. The corpus includes over 40 hours of synchronized vehicle state, 20,000+ concurrent feedback utterances, coaching category annotations, compliance ratings, and self-reported cognitive load. We demonstrate applications for in-context learning, imitation learning, and topic modeling."
+      imageUrl: "/emilysumner/img/featured-simcoach.png"
+      arxivUrl: "https://arxiv.org/abs/2509.14548"
+
+    - title: "Dreaming to Assist: Learning to Align with Human Objectives for Shared Control in High-Speed Racing"
+      authors: "DeCastro, J., Silva, A., Gopinath, D., Sumner, E., Balch, T., Dees, L., Rosman, G."
+      venue: "CoRL 2024"
+      description: "Dream2Assist combines a rich world model that infers human objectives and value functions from driving behavior with an assistive agent that provides intent-aligned shared control. In a high-speed racing domain, the human-robot team outperforms synthetic humans alone and baseline assistance strategies, while adhering to the human's tactical objective such as overtaking or staying behind an opponent."
+      imageUrl: "/emilysumner/img/featured-dream2assist.png"
+      projectUrl: "https://dream2assist.github.io/"
+
+    - title: "A Simulator Dataset to Support the Study of Impaired Driving"
+      authors: "Gideon, J., Tamura, K., Sumner, E., Dees, L., Reyes Gomez, P., et al."
+      venue: "ITSC 2025"
+      description: "We captured data from 52 human drivers over 25 hours of urban driving in a simulator, including under alcohol-intoxicated (0.10% BAC) and cognitively-distracted conditions with realistic road hazards. The dataset includes vehicle data, gaze, audio, and survey responses, supporting analysis of behavioral overlap between impairment types and the development of impairment detection systems."
+      imageUrl: "/emilysumner/img/featured-idd.png"
+      projectUrl: "https://toyotaresearchinstitute.github.io/IDD/"
+
+  socialIcons:
+    - name: googlescholar
+      url: "https://scholar.google.com/citations?user=tsjvcusAAAAJ"
+    - name: github
+      url: "https://github.com/emilyssumner"
+
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: publications
+      name: Publications
+      url: /publications/
+      weight: 2
+    - identifier: patents
+      name: Patents
+      url: /patents/
+      weight: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

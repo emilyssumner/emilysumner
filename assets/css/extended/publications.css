@@ -1,0 +1,79 @@
+/* Publications theme filter buttons */
+.pub-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 1.5rem 0 1rem;
+}
+
+.pub-filter-btn {
+    padding: 6px 16px;
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    background: transparent;
+    color: var(--primary);
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: inherit;
+}
+
+.pub-filter-btn:hover {
+    background: var(--entry);
+    border-color: var(--primary);
+}
+
+.pub-filter-btn.active {
+    background: var(--primary);
+    color: var(--entry);
+    border-color: var(--primary);
+}
+
+#pub-count {
+    font-size: 0.85rem;
+    color: var(--secondary);
+    margin-bottom: 0.5rem;
+}
+
+/* Publication items */
+.pub-list {
+    margin-top: 1rem;
+}
+
+.pub-year {
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.25rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.pub-item {
+    padding: 0.6rem 0;
+    transition: opacity 0.25s ease, max-height 0.3s ease;
+    overflow: hidden;
+}
+
+.pub-item.hidden {
+    opacity: 0;
+    max-height: 0 !important;
+    padding: 0;
+    margin: 0;
+    pointer-events: none;
+}
+
+.pub-item p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .pub-filters {
+        gap: 6px;
+    }
+    .pub-filter-btn {
+        font-size: 0.8rem;
+        padding: 5px 12px;
+    }
+}

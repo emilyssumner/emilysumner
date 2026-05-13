@@ -1,0 +1,230 @@
+- num: 33
+  authors: "Banerjee, S., Cornelisse, D., Gopinath, D., <strong>Sumner, E.</strong>, DeCastro, J., Rosman, G., et al."
+  title: "Estimating cognitive biases with attention-aware inverse planning"
+  venue: "Advances in Neural Information Processing Systems 38, 14524-14550 (2026)"
+  year: 2026
+  themes: ["driving", "cognitive-modeling"]
+
+- num: 32
+  authors: "Hu, X., Dees, L., Gopinath, D., Silva, A., DeCastro, J., Rosman, G., & <strong>Sumner, E.</strong>"
+  title: "Enhancing Trust Repair in Driving: The Role of AI Emotional Expression and Perceived Control"
+  venue: "IEEE 28th International Conference on Intelligent Transportation Systems (ITSC) (2025)"
+  year: 2025
+  themes: ["driving"]
+
+- num: 31
+  authors: "Costa, J., Morgan, A., Yasuda, H., <strong>Sumner, E. S.</strong>, Gopinath, D., Chau, S., et al."
+  title: "From Dashboards to Dialogue: Evaluating a Conversational AI Coach for Performance Driving Skill Development"
+  venue: "Proceedings of the 17th International Conference on Automotive User Interfaces (2025)"
+  year: 2025
+  themes: ["driving", "hci"]
+
+- num: 30
+  authors: "<strong>Sumner, E.</strong>, Gopinath, D. E., Dees, L., Reyes Gomez, P., Cui, X., Silva, A., Costa, J., Morgan, A., Schrum, M., Chen, T. L., Balachandran, A., & Rosman, G."
+  title: "SimCoachCorpus: A naturalistic dataset with language and trajectories for embodied teaching"
+  venue: "arXiv preprint arXiv:2509.14548 (2025)"
+  year: 2025
+  themes: ["driving"]
+
+- num: 29
+  authors: "Gopinath, D., Cui, X., DeCastro, J., <strong>Sumner, E.</strong>, Costa, J., Yasuda, H., Morgan, A., Dees, L., Chau, S., Leonard, J., Chen, T., Rosman, G., & Balachandran, A."
+  title: "Computational teaching for driving via multi-task imitation learning"
+  venue: "IEEE International Conference on Robotics and Automation (ICRA), 7019-7027 (2025)"
+  year: 2025
+  themes: ["driving"]
+
+- num: 28
+  authors: "Oh, D. D., Lidard, J., Hu, H., Sinhmar, H., Lazarski, E., Gopinath, D., <strong>Sumner, E. S.</strong>, et al."
+  title: "Safety with agency: Human-centered safety filter with application to AI-assisted motorsports"
+  venue: "arXiv preprint arXiv:2504.11717 (2025)"
+  year: 2025
+  themes: ["driving"]
+
+- num: 27
+  authors: "Gideon, J., Tamura, K., <strong>Sumner, E.</strong>, Dees, L., Reyes Gomez, P., Haq, B., Rowell, T., Balachandran, A., Stent, S., & Rosman, G."
+  title: "A simulator dataset to support the study of impaired driving"
+  venue: "arXiv preprint arXiv:2507.02867 (2025)"
+  year: 2025
+  themes: ["driving"]
+
+- num: 26
+  authors: "Srivastava, M., Iranmanesh, R., Cui, Y., Gopinath, D., <strong>Sumner, E. S.</strong>, Silva, A., et al."
+  title: "Shared autonomy for proximal teaching"
+  venue: "20th ACM/IEEE International Conference on Human-Robot Interaction (HRI) (2025)"
+  year: 2025
+  themes: ["driving"]
+
+- num: 25
+  authors: "Schrum, M., Morgan, A., Gopinath, D., Costa, J., <strong>Sumner, E.</strong>, Rosman, G., & Chen, T."
+  title: "A data-driven framework for skill representation"
+  venue: "LEAP-HRI Workshop at the ACM/IEEE International Conference on Human-Robot Interaction (2025)"
+  year: 2025
+  themes: ["driving", "cognitive-modeling"]
+
+- num: 24
+  authors: "DeCastro, J., Silva, A., Gopinath, D., <strong>Sumner, E.</strong>, Balch, T., Dees, L., & Rosman, G."
+  title: "Dreaming to Assist: Learning to Align with Human Objectives for Shared Control in High-Speed Racing"
+  venue: "Conference on Robot Learning (CoRL) (2024)"
+  year: 2024
+  themes: ["driving"]
+
+- num: 23
+  authors: "Iliev, R., Filipowicz, A., Chen, F., Arechiga, N., Carter, S., <strong>Sumner, E.</strong>, Harinen, T., et al."
+  title: "Harvesting heterogeneity: Selective expertise versus machine learning"
+  venue: "Psychological Methods (2024)"
+  year: 2024
+  themes: ["cognitive-modeling"]
+
+- num: 22
+  authors: "<strong>Sumner, E. S.</strong>, DeCastro, J., Costa, J., Gopinath, D., Kimani, E., Hakimi, S., et al."
+  title: "Personalizing driver safety interfaces via driver cognitive factors inference"
+  venue: "Scientific Reports 14 (1), 18058 (2024)"
+  year: 2024
+  themes: ["driving"]
+
+- num: 21
+  authors: "Schrum, M. L., <strong>Sumner, E.</strong>, Gombolay, M. C., & Best, A."
+  title: "MAVERIC: A Data-Driven Approach to Personalized Autonomous Driving"
+  venue: "IEEE Transactions on Robotics 40, 1952-1965 (2024)"
+  year: 2024
+  themes: ["driving"]
+
+- num: 20
+  authors: "Fink, P. D., Dimitrov, V., Yasuda, H., Chen, T. L., Corey, R. R., Giudice, N. A., & <strong>Sumner, E.</strong>"
+  title: "Autonomous is Not Enough: Designing Multisensory Mid-Air Gestures for Vehicle Interactions Among People with Visual Impairments"
+  venue: "Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems, pp. 1-13 (2023)"
+  year: 2023
+  themes: ["hci"]
+
+- num: 19
+  authors: "Chen, F., Hong, M. K., Denoue, L., Glazko, K., <strong>Sumner, E. S.</strong>, Chen, Y. Y., & Klenk, M."
+  title: "CodeML: A Machine Learning-Assisted User Interface for Code Identification and Labeling"
+  venue: "Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems, pp. 1-7 (2023)"
+  year: 2023
+  themes: ["hci"]
+
+- num: 18
+  authors: "Hakimi, S., Chen, Y. Y., Van, M. P., Carter, S., <strong>Sumner, E.</strong>, Bravo, N. S., Murakami, K., et al."
+  title: "Machine learning-based measure of cognitive complexity explains variance in rank-ordered preference"
+  venue: "Proceedings of the Annual Meeting of the Cognitive Science Society, Vol. 45, No. 45 (2023)"
+  year: 2023
+  themes: ["cognitive-modeling"]
+
+- num: 17
+  authors: "Fink, P. D., Abou Allaban, A., Atekha, O. E., Perry, R. J., <strong>Sumner, E. S.</strong>, Corey, R. R., Dimitrov, V., & Giudice, N. A."
+  title: "Expanded Situational Awareness Without Vision: A Novel Haptic Interface for Use in Fully Autonomous Vehicles"
+  venue: "ACM/IEEE International Conference on Human-Robot Interaction (HRI) (2023)"
+  year: 2023
+  themes: ["hci"]
+
+- num: 16
+  authors: "Iliev, R., Filipowicz, A., <strong>Sumner, E. S.</strong>, Chen, F., Arechiga, N., Carter, S., et al."
+  title: "Can Behavioral Experts Predict Outcome Heterogeneity?"
+  venue: "Proceedings of the Annual Meeting of the Cognitive Science Society, Vol. 45, No. 45 (2023)"
+  year: 2023
+  themes: ["cognitive-modeling"]
+
+- num: 15
+  authors: "DeCastro, J., Gopinath, D., Rosman, G., <strong>Sumner, E.</strong>, Hakimi, S., & Stent, S."
+  title: "Learning Latent Traits for Simulated Cooperative Driving Tasks"
+  venue: "arXiv preprint arXiv:2207.09619 (2023)"
+  year: 2023
+  themes: ["driving"]
+
+- num: 14
+  authors: "Gopinath, D., DeCastro, J., Rosman, G., <strong>Sumner, E.</strong>, Morgan, A., Hakimi, S., & Stent, S."
+  title: "HMIway-Env: A Framework for Simulating Behaviors and Preferences To Support Human-AI Teaming in Driving"
+  venue: "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), pp. 4342-4350 (2022)"
+  year: 2022
+  themes: ["driving"]
+
+- num: 13
+  authors: "Thomas, A. J., Mitchell, V., <strong>Sumner, E.</strong>, Terrizzi, B., Piff, P. K., & Sarnecka, B. W."
+  title: "Intuitive sociology: Children recognize decision-making structures and prefer groups with less-concentrated power"
+  venue: "Open Mind 6, 25-40 (2022)"
+  year: 2022
+  themes: ["dev-psych"]
+
+- num: 12
+  authors: "Thomas, A. J., Navarro Hernandez, S., <strong>Sumner, E.</strong>, & Sarnecka, B."
+  title: "Children expect leaders to oust intruders, refrain from unprovoked aggression, but not to be generally prosocial"
+  venue: "Collabra: Psychology 8 (1), 33956 (2022)"
+  year: 2022
+  themes: ["dev-psych"]
+
+- num: 11
+  authors: "Iliev, R., Harinen, T., Filipowicz, A., Bravo, N., <strong>Sumner, E. S.</strong>, Hakimi, S., Lee, M., et al."
+  title: "Social expected utility: Indifference to others can influence risk preferences"
+  venue: "PsyArXiv (2022)"
+  year: 2022
+  themes: ["cognitive-modeling"]
+
+- num: 10
+  authors: "Arechiga, N., Chen, F., Iliev, R., <strong>Sumner, E.</strong>, Carter, S., Filipowicz, A., Bravo, N., et al."
+  title: "Understanding and Shifting Preferences for Battery Electric Vehicles"
+  venue: "arXiv preprint arXiv:2202.08963 (2022)"
+  year: 2022
+  themes: ["cognitive-modeling"]
+
+- num: 9
+  authors: "Filipowicz, A. L. S., Wu, C. C., Lee, M. L., Shamma, D. A., Hakimi, S., Carter, S., Iliev, R., et al."
+  title: "Familiarity plays a unique role in increasing preferences for battery electric vehicle adoption"
+  venue: "Proceedings of the Annual Meeting of the Cognitive Science Society, Vol. 44, No. 44 (2022)"
+  year: 2022
+  themes: ["cognitive-modeling"]
+
+- num: 8
+  authors: "Harinen, T., Filipowicz, A., Hakimi, S., Iliev, R., Klenk, M., & <strong>Sumner, E.</strong>"
+  title: "Machine learning reveals how personalized climate communication can both succeed and backfire"
+  venue: "arXiv preprint arXiv:2109.05104 (2021)"
+  year: 2021
+  themes: ["cognitive-modeling"]
+
+- num: 7
+  authors: "Parlett-Pelleriti, C., Linstead, E. J., <strong>Sumner, E. S.</strong>, Nguyen, H. Q., Stokes, R., et al."
+  title: "A Hierarchical Bayesian IRT Analysis of Children's Risk Propensity"
+  venue: "19th IEEE International Conference on Machine Learning and Applications (ICMLA) (2020)"
+  year: 2020
+  themes: ["dev-psych"]
+
+- num: 6
+  authors: "Thomas, A., Hernandez, S., <strong>Sumner, E.</strong>, & Sarnecka, B."
+  title: "Children expect leaders to oust intruders, to refrain from aggression, but do not expect leaders to be generally more prosocial"
+  venue: "OSF (2020)"
+  year: 2020
+  themes: ["dev-psych"]
+
+- num: 5
+  authors: "<strong>Sumner, E. S.</strong>"
+  title: "Decision making and exploration during childhood"
+  venue: "PhD Dissertation, University of California, Irvine (2020)"
+  year: 2020
+  themes: ["dev-psych"]
+
+- num: 4
+  authors: "<strong>Sumner, E.</strong>, Li, A., Perfors, A., Hayes, B., Navarro, D., & Sarnecka, B."
+  title: "The Exploration Advantage: Children's instinct to explore allows them to find information that adults miss"
+  venue: "OSF (2019)"
+  year: 2019
+  themes: ["dev-psych"]
+
+- num: 3
+  authors: "<strong>Sumner, E.</strong>, DeAngelis, E., Hyatt, M., Goodman, N., & Kidd, C."
+  title: "Cake or broccoli? Recency biases children's verbal responses"
+  venue: "PLoS ONE 14 (6), e0217207 (2019)"
+  year: 2019
+  themes: ["dev-psych"]
+
+- num: 2
+  authors: "<strong>Sumner, E.</strong>, Steyvers, M., & Sarnecka, B. W."
+  title: "It's not the treasure, it's the hunt: Children are more explorative on an explore/exploit task than adults are"
+  venue: "Proceedings of the 41st Annual Meeting of the Cognitive Science Society (2019)"
+  year: 2019
+  themes: ["dev-psych"]
+
+- num: 1
+  authors: "<strong>Sumner, E.</strong>, DeAngelis, E., Hyatt, M., Goodman, N., & Kidd, C."
+  title: "Toddlers Always Get the Last Word: Recency biases in early verbal behavior"
+  venue: "Proceedings of the 37th Annual Meeting of the Cognitive Science Society (2015)"
+  year: 2015
+  themes: ["dev-psych"]
