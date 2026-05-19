@@ -2,11 +2,20 @@
 
 {{- if and site.Params.homeInfoParams .IsHome }}
 <article class="first-entry home-info">
-    <header class="entry-header">
-        <h1>{{ site.Params.homeInfoParams.Title | markdownify }}</h1>
-    </header>
-    <div class="entry-content">
-        {{ site.Params.homeInfoParams.Content | markdownify }}
+    <div class="home-intro-with-photo">
+        {{- if site.Params.homeInfoParams.headshotUrl }}
+        <div class="home-headshot">
+            <img src="{{ site.Params.homeInfoParams.headshotUrl | relURL }}" alt="Emily Sumner" />
+        </div>
+        {{- end }}
+        <div class="home-intro-text">
+            <header class="entry-header">
+                <h1>{{ site.Params.homeInfoParams.Title | markdownify }}</h1>
+            </header>
+            <div class="entry-content">
+                {{ site.Params.homeInfoParams.Content | markdownify }}
+            </div>
+        </div>
     </div>
 </article>
 {{- end }}
