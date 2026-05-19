@@ -15,7 +15,7 @@ params:
   hideFooter: false
 
   homeInfoParams:
-    Title: "Hi, I'm Emily :wave:"
+    Title: "Hi, I'm Emily"
     headshotUrl: "/emilysumner/img/headshot.webp"
     Content: |
       I'm a cognitive scientist working at the intersection of human behavior and machine learning, translating how people think, feel, and behave into data that makes AI systems smarter and more trustworthy.
