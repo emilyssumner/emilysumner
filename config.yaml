@@ -45,7 +45,7 @@ params:
 
     - title: "SimCoachCorpus: A Naturalistic Dataset with Language and Trajectories for Embodied Teaching"
       authors: "Sumner, E., Gopinath, D. E., Dees, L., Reyes Gomez, P., Cui, X., Silva, A., Costa, J., et al."
-      venue: "Under Review (2025)"
+      venue: "KDD 2026"
       description: "We introduce SimCoachCorpus, a dataset of 29 humans learning to drive on a race track simulator over 90 minutes each, where 15 received personalized coaching from a professional instructor. The corpus includes over 40 hours of synchronized vehicle state, 20,000+ concurrent feedback utterances, coaching category annotations, compliance ratings, and self-reported cognitive load. We demonstrate applications for in-context learning, imitation learning, and topic modeling."
       imageUrl: "/emilysumner/img/featured-simcoach.png"
       arxivUrl: "https://arxiv.org/abs/2509.14548"
