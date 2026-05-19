@@ -25,7 +25,7 @@
                         <h2 class="pub-year">{{ .year }}</h2>
                 {{ end }}
                 <div class="pub-item" data-themes="{{ delimit .themes "," }}">
-                    <p><strong>{{ .num }}.</strong> {{ .authors }} <em>{{ .title }}.</em> {{ .venue }}.</p>
+                    <p><strong>{{ .num }}.</strong> {{ .authors | safeHTML }} <em>{{ .title }}.</em> {{ .venue }}.</p>
                 </div>
                 {{ $lastYear = .year }}
             {{ end }}
